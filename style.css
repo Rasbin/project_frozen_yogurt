@@ -1,0 +1,152 @@
+
+* {
+    margin:0 auto;
+    padding: 0 auto;
+}
+
+body {
+    width: 100%;
+    background-color: #edebec;
+}
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.navbar {
+    padding: 20px;
+    color: darkgray;
+}
+
+.right li {
+    margin-right: 50px;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+}
+
+.pink {
+    color: deeppink;
+}
+
+.right {
+    float: right;
+}
+
+.right li {
+    margin-right: 20px;
+    list-style-type: none;
+    float: left;
+}
+
+.bgHome {
+    width: 100%;
+
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.smalllogopart {
+    background-image: url("img/icons2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 14%;
+    bottom: 10%;
+    min-width: 200px;
+    min-height: 200px;
+    background-size: contain;
+
+    }
+
+.smalllogopart p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.delight {
+    display: block;
+}
+
+/*.smalllogo {
+    position: absolute;
+    right: 14%;
+    bottom: 10%;
+}*/
+
+
+
+.secondLast figcaption {
+    color: white;
+}
+
+.secondLast {
+    background-color: #c8c10e;
+    padding: 20px;
+}
+
+.secondLast img{
+    
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.secondLast ul li {
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+
+}
+
+.productInfo {
+    background-color: #e9e7e8;
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 200px;
+    margin-top: -5px;
+}
+
+
+.productContent {
+    width: 60%;
+    float: left;
+}
+
+.productInfo img {
+    height: 200px;
+    float: right;
+
+
+}
+
+.productInfo h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.productInfo h2, p {
+    color: darkgray;
+}
+
+footer {
+    background-color: deeppink;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+}
