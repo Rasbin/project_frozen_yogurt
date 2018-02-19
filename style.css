@@ -16,6 +16,11 @@ body {
    clear: both;
 }
 
+.main-container {
+  background-color: #edebec;
+
+}
+
 .navbar {
     padding: 20px;
     color: darkgray;
@@ -95,7 +100,7 @@ body {
 }
 
 .secondLast img{
-    
+
     height: 30px;
     margin-bottom: 10px;
 }
@@ -142,11 +147,43 @@ footer {
     background-color: deeppink;
     padding: 20px;
     text-align: center;
+    bottom:  0;
 }
 
 footer p {
     margin-top: 10px;
     margin-bottom: 10px;
     color: white;
+}
 
+/* Starting Media Queries */
+
+@media only screen and (max-width: 500px) {
+  .menuList {
+    margin-right: 10px;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .productContent, .yogurt-image {
+    width: 100%;
+  }
+
+  .yogurt-image {
+    position: relative;
+    bottom: 0;
+  }
+
+  .smalllogopart, .yogurt-image {
+    display: none;
+  }
+
+  .secondLast ul li {
+    width: 40%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
 }
