@@ -97,7 +97,7 @@ body {
 .secondLast {
     background-color: #c8c10e;
     padding: 10px;
-
+    text-align: center;
 }
 
 .secondLast img{
@@ -116,7 +116,7 @@ body {
 
 .productInfo {
     background-color: #e9e7e8;
-    padding: 10px;
+    padding: 40px;
     height: 200px;
     margin-top: -5px;
 }
@@ -165,6 +165,8 @@ footer p {
 
   .navbar {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
   }
 
   .right {
@@ -199,6 +201,11 @@ footer p {
     font-size: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+  }
+
+  .productInfo {
+    padding: 25px;
+
   }
 
   footer {
